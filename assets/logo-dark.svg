@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="72" viewBox="0 0 380 72"
+     fill="none" role="img" aria-label="Business Analyzer">
+  <title>Business Analyzer</title>
+
+  <!-- Dark-theme twin of logo.svg. The wordmark there is near-black and
+       disappears against GitHub's dark theme, so the README pairs the two
+       through <picture> + prefers-color-scheme. The mark itself is the
+       same in both: its own tile carries it on any background. -->
+
+  <g transform="translate(4, 4)">
+    <defs>
+      <linearGradient id="bmg" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#6ee7b7"/><stop offset=".48" stop-color="#10b981"/><stop offset="1" stop-color="#06b6d4"/>
+      </linearGradient>
+      <radialGradient id="bmh" cx="18" cy="12" r="34" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#bmg)"/>
+    <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#bmh)"/>
+    <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="16.25" stroke="#fff" stroke-opacity=".22" stroke-width="1.5"/>
+    <path d="M22.5 21.5 L12.5 32 L22.5 42.5" stroke="#04130d" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M28 43.5 L35.5 34 L41.5 39 L50 24.5" stroke="#04130d" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="50" cy="24.5" r="4.6" fill="#04130d"/>
+  </g>
+
+  <text x="82" y="34" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="700" letter-spacing="-0.6" fill="#FAFAFA">Business</text>
+  <text x="197" y="34" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="500" letter-spacing="-0.6" fill="#A1A1A1">Analyzer</text>
+  <text x="83" y="54" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="12" font-weight="500" letter-spacing="1.6" fill="#A1A1A1">AI CODE REVIEW &amp; TEAM INTELLIGENCE</text>
+</svg>
