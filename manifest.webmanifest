@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Business Analyzer",
+  "short_name": "Analyzer",
+  "description": "داشبورد تیم: کد ریویو، اسپرینت، تیم و خطاهای سنتری",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
+  "categories": ["productivity", "business", "developer"],
+  "icons": [
+    { "src": "pwa/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "pwa/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "pwa/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "ریویو", "url": "./#review", "icons": [{ "src": "pwa/icon-192.png", "sizes": "192x192" }] },
+    { "name": "اسپرینت", "url": "./#sprint", "icons": [{ "src": "pwa/icon-192.png", "sizes": "192x192" }] },
+    { "name": "سنتری", "url": "./#sentry", "icons": [{ "src": "pwa/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
